@@ -1,0 +1,28 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\users\mahrufhossain\Documents\LTspice\op_amp_max_swing.net
+Start Time: Thu Jul  3 12:31:32 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+C:\users\mahrufhossain\Documents\LTspice\op_amp_max_swing.net(3): Limiting rise time to 1.01644e-21.
+
+V1 Vin 0 PULSE(0 20mV 0 0 0 5u 5u 1)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\users\mahrufhossain\Documents\LTspice\op_amp_max_swing.net(3): Limiting fall time to 1.01644e-21.
+
+V1 Vin 0 PULSE(0 20mV 0 0 0 5u 5u 1)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 1e-11
+Changing Tseed to 1e-13
+Changing Tseed to 1e-10
+Changing Tseed to 1e-14
+Changing Tseed to 1e-09
+Total elapsed time: 0.028 seconds.
+
+Files loaded:
+C:\users\mahrufhossain\Documents\LTspice\op_amp_max_swing.net
+C:\users\mahrufhossain\Documents\LTspice\LM741.lib
+
