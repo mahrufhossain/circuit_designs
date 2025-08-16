@@ -1,0 +1,15 @@
+LTspice 24.1.9 for Windows
+Circuit: Z:\home\mahrufhossain\LTspice\darlington_pair.net
+Start Time: Thu Aug 14 23:33:11 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.040 seconds.
+
+Files loaded:
+Z:\home\mahrufhossain\LTspice\darlington_pair.net
+C:\users\mahrufhossain\AppData\Local\LTspice\lib\cmp\standard.bjt
+

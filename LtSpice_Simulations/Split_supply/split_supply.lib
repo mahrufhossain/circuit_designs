@@ -1,0 +1,26 @@
+* File: split_power_supply.lib
+* Description: Ideal Split Power Supply Subcircuit
+*
+* .SUBCKT SPLIT_SUPPLY VPOS VNEG GND PARAMS: Vp=15V Vn=-15V
+*
+* VPOS: Positive output terminal
+* VNEG: Negative output terminal
+* GND: Common ground terminal
+*
+* Parameters:
+* Vp: Desired positive voltage (default: 15V)
+* Vn: Desired negative voltage (default: -15V)
+*
+* Example usage in a main netlist:
+* X1 VCC_OUT VEE_OUT 0 SPLIT_SUPPLY PARAMS: Vp=12V Vn=-12V
+* (where VCC_OUT, VEE_OUT are nodes in your main circuit, and 0 is ground)
+*
+.SUBCKT SPLIT_SUPPLY VPOS VNEG GND PARAMS: Vp=15V Vn=-15V
+
+* Positive voltage source
+V_POS VPOS GND DC {Vp}
+
+* Negative voltage source
+V_NEG VNEG GND DC {Vn}
+
+.ENDS SPLIT_SUPPLY
